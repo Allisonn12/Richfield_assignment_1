@@ -1,0 +1,130 @@
+
+/*
+	ALL
+*/
+body{
+	width: 100% !important;
+	overflow-x: hidden;
+}
+/*
+	INDEX
+*/
+.navbar-brand img{
+	width: 200px;
+}
+.nav-item a{
+	color: #000;
+	font-weight: 600;
+}
+.nav-item a:hover{
+	color: #ccc;
+}
+.nav-item a:focus, a:active{
+	color: #ccc;
+}
+/*
+	SIGN UP & SIGN IN
+*/
+.hero{
+	box-shadow: 5px 5px 5px 5px #ccc;
+	margin: 20px 10rem;
+	padding: 30px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+.hero h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+.hero p{
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.bannder-img{
+	display: flex;
+}
+.bannder-img img{
+	width: 20rem;
+	margin: 30px auto;
+	justify-content: center;
+	align-items: center;
+}
+/*
+	INDEX
+*/
+.portfolios{
+	width: 100%;
+}
+.portfolios img{
+	width: 100%;
+	height: 350px;
+	border-radius: 5px;
+	object-fit: contain;
+}
+.header-section{
+	width: 100em !important;
+}
+.accordion a{
+	color: #000;
+	text-decoration: none;
+}
+/*
+	Contact
+*/
+.contact_page img{ 
+	position: relative;
+	border: none;
+	object-fit: cover;
+	width: 95%;
+	height: 70vh;
+}
+.contact_page h1{
+	position: absolute;
+	z-index: 99999;
+	left: 35%;
+	top: 10rem;
+	font-size: 5vw;
+	text-shadow: 5px 5px #ccc;
+}
+.contact{
+	background-color: #ccc;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+.contact h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contact h4{
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.table-heading{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.map{
+	width: 100%;
+	padding-bottom: 30px;
+	margin-top: 60px;
+}
+.campus-details a{
+	color: #333;
+	text-decoration: none;
+}
+.campus-details a:hover{
+	transition: all 0.9s ease-in-out;
+	color: rgba(0, 0, 255, 1.0);
+}
+.contact-form h4{
+	font-weight: 700;
+}
+.contact-form h2{
+	font-weight: 700;
+}
